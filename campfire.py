@@ -12,11 +12,11 @@ console = Console()
 FLAME_CHARS  = [" ", "░", "▒", "▓", "█"]
 FLAME_COLORS = ["#1a0d00", "#802b00", "#cc5500", "#ff7b00", "#ffd966"]
 
-REFRESH = 0.03
-SPARK_CHANCE = 0.9   
+REFRESH = 0.1
+SPARK_CHANCE = 0.91   
 DECAY = 0.98
 RISE = 2              
-COLUMN_VAR = 0.15     
+COLUMN_VAR = 0.2     
 
 def clear_terminal():
     os.system("cls" if os.name == "nt" else "clear")
